@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="Anketa.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Website Survey</h1>
+
+        <form>
+
+            <label for="experience">How would you rate your experience with our website?</label>
+            <select id="experience" name="experience" required>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="improvements">What improvements would you suggest for our website?</label>
+            <textarea id="improvements" name="improvements" rows="4" cols="50"></textarea>
+
+            <div class="source-options">
+                <label>How did you find out about our website?</label>
+                <input type="radio" id="socialMedia" name="source" value="socialMedia">Social Media
+                <input type="radio" id="searchEngine" name="source" value="searchEngine">Search Engine</input>
+                <input type="radio" id="friend" name="source" value="friend">Friend/Family
+                <input type="radio" id="other" name="source" value="other">Other
+            </div>
+
+            <label for="comments">Any additional comments or suggestions?</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+            <div class="button-container">
+                <button type="submit">Submit</button>
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+</body>
+</html>

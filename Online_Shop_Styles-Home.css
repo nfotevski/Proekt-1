@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(237, 187, 0); 
+}
+
+h2 {
+    color: rgb(219,0,48);
+} 
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container div {
+    width: 30%;
+}
+
+.image-container img {
+    width: 90%;
+    height: 80%;
+    border: 3px solid #004080; 
+    border-radius: 10px;
+}
+
